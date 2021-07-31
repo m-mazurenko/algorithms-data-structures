@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/license-key-formatting/
+
 class Solution:
     def licenseKeyFormatting(self, s: str, k: int) -> str:
         s = s.upper().replace('-', '')
